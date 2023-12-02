@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
+
+@media (max-width: 1920px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  .main2 {
+    height: auto;
+    width: 100%;
+    /* background-color: #6e7f91; */
+  }
+  .loginTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #007afe;
+    color: white;
+  }
+  .logInTop-1 {
+    font-size: 15px;
+    font-weight: 550;
+    letter-spacing: 1px;
+  }
+  .logInTop-2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-right: 20px;
+  }
+  .logInTop-2 :nth-child(2) {
+    border: 0.5px solid #63acfa;
+    padding: 10px 20px;
+    border-radius: 50px;
+  }
+  .mobileLogo {
+    display: none;
+  }
+  /* //////////////LOGINTOP END ////////////////*/
+
+  /* /////////////ContactTop Start////////// */
+  .contactTop {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 30px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contactTop .contacatTopDetails {
+    display: flex;
+    gap: 1rem;
+  }
+  .contacatTopDetails h6 {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #6e7f91;
+    margin: 10px 0 10px 0;
+  }
+  .contacatTopDetails p {
+    color: #6e7f91;
+  }
+  .contactTop .contacatTopDetails i {
+    color: #007afe;
+    font-size: 30px;
+  }
+  /* /////////////ContactTop END////////// */
+  /* /////////////NavbarTop START////////// */
+  .navbarTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding: 30px 80px;
+  }
+  .navbarTop .menuItems {
+    display: flex;
+    gap: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  .navbarTop .menuItems a{
+    text-decoration: none;
+    color: gray;
+  }
+  .navbarTop .search-contact {
+    gap: 1rem;
+    display: flex;
+  }
+  .menubar {
+    display: none;
+  }
+  /* //////////NavbarTop END///////// */
+
+  /* ////////////Aout Us START///////////// */
+  .aboutUs {
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./banner-4.jpg);
+  }
+  .aboutUs h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 200px 0 0 500px;
+    position: absolute;
+  }
+  /* ////////////About Us end////////////////// */
+  /* ////////////Services Start///////////// */
+  .services {
+    width: 100%;
+    padding: 80px 30px;
+    text-align: center;
+    background-color: #f7f7f7;
+    margin-top: 150px;
+  }
+  .circle {
+    width: 5px;
+    height: 5px;
+    background-color: #007aff;
+    border-radius: 50%;
+  }
+  .line {
+    width: 50px;
+    height: 3px;
+    background-color: #007aff;
+  }
+  .ines-circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .services .intro {
+    color: #007aff;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .services p {
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  .services-elements,
+  .service-elements-2 {
+    display: flex;
+    background-color: #f7f7f7;
+  }
+  .cards {
+    width: 100%;
+    /* background-color: skyblue; */
+    padding: 50px 70px;
+    display: flex;
+    /* gap: 0.5rem; */
+  }
+  .cards .card {
+    padding: 10px 20px;
+    display: flex;
+    margin-left: 30px;
+  }
+
+  .cards .card img {
+    width: 100px;
+    height: 100px;
+  }
+  .cards .card h2 {
+    margin: 20px 0 20px 10px;
+    font-size: 20px;
+  }
+  .cards .card p {
+    color: #64605e;
+    font-size: 15px;
+    margin: 20px 0 20px 10px;
+    line-height: 30px;
+  }
+  .card:hover {
+    box-shadow: 0px 10px 15px rgb(122, 121, 121);
+    transition: all ease 1s;
+  }
+  /* ////////////Services end///////////// */
+
+  /* //////////////// ConatctBottom Start ////////////////////// */
+  .contactBottom {
+    width: 100%;
+    padding: 100px 50px;
+    display: flex;
+    background-color: #1c1c1c;
+  }
+  .contactBottom a {
+    text-decoration: none;
+    font-size: 3vh;
+    font-weight: 600;
+    color: white;
+  }
+  .contactBottom .about {
+    width: 40%;
+    padding: 20px;
+    color: white;
+    /* background-color: yellow; */
+  }
+  .about p {
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .about .input {
+    padding: 10px;
+    background: transparent;
+    border-radius: none;
+    width: 100%;
+    display: flex;
+  }
+  .about input {
+    border: 1px solid #616060;
+    /* width: 100%; */
+    position: relative;
+    padding: 35px 50px;
+    color: white;
+  }
+  .about .input i {
+    color: white;
+    background-color: #007aff;
+    padding: 8px 30px;
+    margin: 3px 0 5px 19%;
+    position: absolute;
+  }
+  .about .iconSocials {
+    width: 50%;
+    gap: 10px;
+    display: flex;
+    margin: 30px 0 30px 0;
+  }
+  .about .iconSocials a {
+    background-color: #333333;
+    border: 1px solid #666666;
+    padding: 10px 15px;
+    width: 50px;
+    color: #007aff;
+  }
+  .about h2 {
+    margin: 30px 0 30px 0;
+    font-size: 15px;
+    width: 100%;
+  }
+  .contactBottom .Services {
+    width: 20%;
+    padding: 0 30px;
+    line-height: 50px;
+  }
+  .contactBottom .Services .anker {
+    font-weight: 300;
+    font-size: 15px;
+  }
+
+  .contactBottom .RecentPost {
+    width: 20%;
+    color: white;
+  }
+  .RecentPost p {
+    line-height: 25px;
+    margin: 40px 0 25px 0;
+  }
+
+  .contactBottom .ContactUs {
+    width: 30%;
+    margin-left: 30px;
+    padding: 20px;
+  }
+  .ContactUs .contact-sec {
+    margin-top: 30px;
+    text-align: start;
+    width: 100%;
+    padding: 30px 40px;
+    color: white;
+    border: 1px solid #666666;
+  }
+  .contact-sec h2 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+    color: white;
+  }
+  .contact-sec p {
+    margin: 10px 0 10px 0;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+  /* //////////////// ConatctBottom END ////////////////////// */
+
+  /* ///////////Footer Start////////////////  */
+  .footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer1 {
+    width: 40%;
+    background-color: #0351fa;
+    height: auto;
+    padding: 30px 20px;
+    color: white;
+  }
+  .footer2 {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    color: white;
+    padding: 30px 30px;
+    background-color: #292929;
+  }
+  /* ///////////Footer End//////////////// */
+
+}

@@ -1,0 +1,649 @@
+
+
+/* ////////////////////Mobile////////////////// */
+@media (max-width: 470px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    /* background-color: red; */
+    flex-direction: column;
+
+    /* padding: 0 30px; */
+  }
+  .mainContainer {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .contactTop {
+    display: none;
+  }
+  .navbar {
+    flex-direction: row;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .navbar img {
+    margin-right: 150px;
+  }
+  .navbar .menubar {
+    display: block;
+    /* margin-right: 50px; */
+    font-size: 30px;
+  }
+  /* //////////////////navbar responsive done/////////////// */
+
+  /* ///////////////////////////home1  //////////////////*/
+  .home-1 {
+    background-color: rgb(65, 66, 66);
+    flex-direction: column;
+    width: 100%;
+  }
+  .home-1 .home-1Elements {
+    /* background-color: blue; */
+    width: 100%;
+    height: auto;
+    text-align: start;
+    padding: 30px 15px;
+    margin-right: 450px;
+    color: rgb(236, 229, 229);
+  }
+  .home-1 .home-1Elements h1 {
+    margin-right: 30px;
+    font-size: 50px;
+  }
+  .home-1 .home-1Elements p {
+    font-size: 20px;
+  }
+  .home-1Elements button {
+    padding: 15px 40px;
+    margin-bottom: 20px;
+  }
+
+  /* ///////////////////////////home1 done //////////////////*/
+
+  /* /////////////////////////welcome statrt/////////////////////// */
+  .welcomeSection {
+    width: 100%;
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+  .welcomeSection .welcome-1 {
+    /* text-align: center; */
+    width: 100%;
+    text-align: center;
+  }
+  .welcomeSection .welcome-1 h6 {
+    color: #007aff;
+    font-size: 15px;
+    background-color: rgb(199, 212, 208);
+    width: 80%;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 20px 0 20px 30px;
+  }
+  .welcome-1 h5 {
+    font-size: 25px;
+    font-weight: 900;
+    margin: 20px 0 20px 0;
+  }
+  .welcome-1 p {
+    font-size: 15px;
+    line-height: 30px;
+    color: gray;
+  }
+  .welcome-1 hr {
+    width: 100%;
+  }
+  .img-1 {
+    flex-direction: column;
+  }
+  .img-1 h4 {
+    margin-bottom: 80px;
+  }
+  .img-1 .sign {
+    position: absolute;
+    margin: 250px 30px 50px 0;
+  }
+  .welcomeSection .welcome-2 {
+    width: 100%;
+  }
+  .experience {
+    display: none;
+  }
+  .experience-2 {
+    width: 90%;
+    margin-left: 20px;
+    height: auto;
+    text-align: center;
+    color: white;
+    display: block;
+    padding: 50px 50px;
+    background-color: #007aff;
+  }
+  .experience-2 h2 {
+    font-size: 50px;
+    font-weight: 900;
+  }
+  .experience-2 span {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  /* //////////////////////Welcome end///////////////// */
+
+  /* ////////////Services Start/////////////////// */
+  .services h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 30px 0 20px 0;
+  }
+  .services-elements .cards {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    padding: 5px 10px;
+  }
+  .services-elements .card {
+    margin: 10px 0 30px 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .services-elements .card img {
+    margin-left: 35%;
+  }
+  .services-elements .card p {
+    color: rgb(100, 100, 100);
+    width: 100%;
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+  }
+
+  .service-elements-2 .cards {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    padding: 5px 10px;
+  }
+  .service-elements-2 .card {
+    margin: 10px 0 30px 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .service-elements-2 .card img {
+    margin-left: 35%;
+  }
+  .service-elements-2 .card p {
+    color: rgb(99, 97, 97);
+    width: 100%;
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+  }
+  /* ////////////Services End/////////////////// */
+  .mobilepic {
+    display: block;
+    width: 100%;
+  }
+  .mobilepic img {
+    width: 100%;
+    background-size: cover;
+  }
+  /*//////////////// Personal Data & Analysis Start ////////////////*/
+  .Data-Analysis {
+    /* background-color: yellow; */
+    padding: 5px 20px;
+  }
+  .Data-Analysis .data {
+    flex-direction: column;
+    margin: 10px 0 30px 0;
+    width: 100%;
+  }
+  .Data-Analysis h2,
+  p {
+    text-align: center;
+  }
+  .data-items {
+    /* text-align: center; */
+    width: 100%;
+    padding: 5px 10px;
+    margin: 5px 30px 10px 0;
+  }
+  .Data-Analysis .data .b1 {
+    width: 100%;
+    margin: 5px;
+  }
+  .data-items h5 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .messagebox {
+    right: 40px;
+    position: absolute;
+  }
+  .messagebox1 {
+    right: 20px;
+    position: absolute;
+  }
+  .messagebox2 {
+    right: 100px;
+    position: absolute;
+  }
+  .line1,
+  .line2,
+  .line3 {
+    margin: 20px 0 20px 0;
+  }
+
+  /*//////////////// Personal Data & Analysis End ////////////////*/
+  /* <!-- ////////////////////Experts/Team Section Start/////////////////// --> */
+  .expertsHeading {
+    width: 100%;
+  }
+  .expertsHeading .expertsProfiles {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .expertsProfiles .profile {
+    width: 100%;
+  }
+  .profileImg {
+    position: relative;
+  }
+  .profile {
+    gap: 3re;
+  }
+  .profile .cirle2 {
+    position: absolute;
+  }
+
+  /* <!-- ////////////////////Experts/Team Section End/////////////////// --> */
+  /* //////////////////////Portfolio Statr///////////////////////// */
+  .porfolio {
+    padding: 10px;
+    width: 100%;
+  }
+  .porfolio .intro {
+    font-size: 24px;
+    color: #007aff;
+    font-weight: 700;
+  }
+  .porfolio .team {
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: 10px;
+  }
+  /* ////////////Displayed none coz i dont understand how to make it responsive///// */
+  .porfolio-sevices {
+    display: none;
+  }
+  /* .porfolio-sevices {
+    display: flex;
+    flex-direction: column;
+    background-color: #007aff;
+    width: 100%;
+    padding: 10px;
+  }
+  .porfolio .ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .porfolio-sevices ul li {
+    border: 1px solid grey;
+    width: 100%;
+    padding: 20px 30px;
+  } */
+  .porfolio-sevices-imgs {
+    flex-direction: column;
+    margin-right: 5px;
+    /* width: 100%; */
+  }
+  .porfolio-sevices-imgs img {
+    width: 90%;
+    height: auto;
+  }
+  /* //////////////////////Portfolio EnD///////////////////////// */
+
+  /* //////////////////////Consultant start///////////////////////// */
+  .consultant {
+    background-color: #007aff;
+    flex-direction: column;
+    text-align: start;
+    padding: 10px;
+  }
+  .consultant .consultantData {
+    flex-direction: column;
+    width: 100%;
+    padding: 30px 10px;
+  }
+  .consultantData h5 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  .consultantData p {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+  }
+  .consultantData button {
+    font-size: 15px;
+  }
+  .consultant .consultantpic {
+    width: 100%;
+  }
+  /* //////////////////////Consultant END///////////////////////// */
+  /* ////////////News Start //////////////// */
+  .newsSection {
+    /* background-color: #8dec75; */
+    flex-direction: column;
+    padding: 10px;
+  }
+  .newsSection .newsHeading {
+    padding: 30px;
+    width: 100%;
+  }
+  .newsHeading .intro {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .newsHeading .team {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .news {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .news .blog1 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .news .assets_benifits {
+    margin-bottom: 70px;
+  }
+  .news .assets_benifits .date {
+    margin: 90px 30px 0 0;
+    position: absolute;
+  }
+  .news .blog1-a .blog1 img {
+    width: 100%;
+  }
+  .blog1-a {
+    width: 100%;
+    flex-direction: column;
+  }
+  .blog2 {
+    /* padding: 10px; */
+    width: 100%;
+  }
+  .blog2-a,
+  .blog2-b {
+    text-align: start;
+  }
+
+  .blog2-a h3 {
+    font-size: 20px;
+  }
+  .blog2-b h3 {
+    font-size: 20px;
+  }
+  .blog2-b h4 {
+    font-size: 17px;
+  }
+
+  .blog2-a h4 {
+    font-size: 17px;
+  }
+  /* ////////////News Start //////////////// */
+
+  /* ///////////ContactBototm start////////// */
+  .contactBottom {
+    background-color: rgb(17, 15, 15);
+    width: 100%;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .contactBottom .about {
+    width: 100%;
+    text-align: start;
+  }
+  .contactBottom .about p {
+    text-align: start;
+  }
+
+  .about .input {
+    padding: 20px;
+    width: 100%;
+  }
+  .about .input i {
+    /* width: 100%; */
+    padding: 16px 20px;
+    margin-left: 215px;
+    font-size: 20px;
+  }
+  .contactBottom .Services {
+    width: 100%;
+    text-align: start;
+  }
+  .contactBottom .RecentPost {
+    width: 100%;
+    text-align: start;
+    padding: 15px;
+  }
+  .contactBottom .RecentPost p {
+    text-align: start;
+  }
+  .contactBottom .ContactUs {
+    width: 90%;
+    /* left: 10px; */
+    margin-right: 10px;
+    text-align: start;
+  }
+  .ContactUs .contact-sec {
+    text-align: start;
+    padding: 10px 15px;
+  }
+  .ContactUs .contact-sec p {
+    text-align: start;
+  }
+  /* ///////////ContactBototm End////////// */
+
+  /* /////////Footer Start //////////// */
+  .footer {
+    flex-direction: column;
+    width: 100%;
+    background-color: #292929;
+  }
+  .footer1,
+  .footer2 {
+    width: 100%;
+    background-color: #292929;
+  }
+  /* /////////Footer END //////////// */
+
+  /* ///////////////ABOUT US PAGE START ////////////////// */
+  /* .main2 {
+  } */
+  .navbarTop {
+    display: none;
+  }
+  .contacatTopDetails {
+    display: none;
+  }
+  .loginTop {
+    display: none;
+  }
+  .contactTop {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .contacatTopDetails .address,
+  hr {
+    display: none;
+  }
+  .contacatTopDetails i {
+    display: none;
+  }
+  .menubar {
+    display: contents;
+    font-size: 30px;
+  }
+
+  .aboutUs {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+  .aboutUs h1 {
+    color: rgb(248, 245, 245);
+    position: relative;
+    margin: 150px 0px 0 50px;
+    font-weight: 800;
+  }
+  /* ///////////////ABOUT US PAGE END ////////////////// */
+
+  /* ///////////////ABOUT US Expeieince Start ////////////////// */
+  .experienceAbout{
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+  }
+  .experienceAbout .experienceAbout-1{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px;
+  }
+  .experienceAbout .welcomeToBushub{
+    width: 70%;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-left: 15%;
+  }
+  .experienceAbout h1{
+    font-size: 8em;
+  }
+  .experienceAbout h1 i{
+    font-size: .6em;
+  }
+  .experienceAbout .experienceAbout-2{
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px;
+    height: auto;
+  }
+  .experienceAbout-2 p{
+    width: 100%;
+  }
+  /* ///////////////ABOUT US Expeieince END ////////////////// */
+  /* ///////////////marketing-startigy start ////////////////// */
+
+  /* .marketing-startigy{
+    display: flex;
+    background-color: yellow;
+  } */
+  /* .marketing-startigy .marketing-startigy-1 img{
+    width: 100%;
+    padding: 10px;
+  } */
+  /* ///////////////marketing-startigy END ////////////////// */
+
+
+  /* ///////////////SimpleDiv start////////////////// */
+  .simpleDiv{
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+  }
+  .simpleDiv img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  /* ///////////////SimpleDiv END////////////////// */
+  .servicesAbt{
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+  .servicesAbt .card{
+    width: 100%;
+  }
+  /* ///////////////contact US PAGE START ////////////////// */
+  /* .main2 {
+  } */
+  .navbarTop {
+    display: none;
+  }
+  .contacatTopDetails {
+    display: none;
+  }
+  .loginTop {
+    display: none;
+  }
+  .contactTop {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .contacatTopDetails .address,
+  hr {
+    display: none;
+  }
+  .contacatTopDetails i {
+    display: none;
+  }
+  .menubar {
+    display: contents;
+    font-size: 30px;
+  }
+
+  .contactUs {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+  .contactUs h1 {
+    color: rgb(248, 245, 245);
+    position: relative;
+    margin: 150px 0px 0 50px;
+    font-weight: 800;
+  }
+  /* ///////////////contact US PAGE END ////////////////// */
+  .contactForm{
+    width: 95%;
+    padding: 20px;
+    flex-direction: column;
+    margin: 20px 10px 20px 10px;
+  }
+  .contactForm .inputName{
+    width: 80%;
+  }
+  .contactForm .number {
+    width: 80%;
+  }
+  .contactForm .email{
+    width: 80%;
+    margin: 10px 0 10px 0;
+  }
+  /* ///////////////Team Experts Start//////////////////////// */
+  .teamExpertsProfiles{
+    flex-direction: column;
+    padding: 10px;
+  }
+  .teamExpertsProfiles .profile{
+    width: 100%;
+  }
+  .teamExpertsProfiles .cirle2{
+    margin: 160px 0 0 200px;
+    position: absolute;
+  }
+}
